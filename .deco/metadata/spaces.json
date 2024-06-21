@@ -367,6 +367,16 @@
           "state": {
             "__signal": null
           }
+        },
+        "settings::domains::adjustments-horizontal::domains::%7B%7D": {
+          "name": "domains",
+          "icon": "adjustments-horizontal",
+          "render": "function",
+          "viewId": "domains",
+          "id": "settings::domains::adjustments-horizontal::domains::%7B%7D",
+          "state": {
+            "__signal": null
+          }
         }
       },
       "category": "Management"
@@ -435,7 +445,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 33.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -456,7 +466,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 33.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -469,6 +479,27 @@
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -506,6 +537,20 @@
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/.deco/blocks/Preview%20%2Fsections%2FHeader.tsx.json"
+          },
+          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
+          "state": {
+            "__signal": "error"
           }
         }
       }
@@ -688,279 +733,30 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-mynewpage-a771a8f0fda6.json",
-      "name": "pages-mynewpage-a771a8f0fda6.json",
-      "pinned": false,
-      "icon": "braces",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {}
-    },
-    {
-      "id": "/fresh.config.ts",
-      "name": "fresh.config.ts",
-      "pinned": false,
-      "icon": "file",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "stack",
-            "width": 100,
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "activeItemIndex": 0,
-            "content": [
-              {
-                "id": "%2Ffresh.config.ts::Code::code::Code::%7B%22spaceId%22%3A%22%2Ffresh.config.ts%22%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2Ffresh.config.ts::Code::code::Code::%7B%22spaceId%22%3A%22%2Ffresh.config.ts%22%7D\" />",
-                "type": "component",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2Ffresh.config.ts::Code::code::Code::%7B%22spaceId%22%3A%22%2Ffresh.config.ts%22%7D"
-                },
-                "isClosable": true,
-                "reorderEnabled": true
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "id": "deco-records-space",
+      "name": "Records",
+      "pinned": true,
+      "icon": "database",
+      "layout": [],
       "tabs": {
-        "%2Ffresh.config.ts::Code::code::Code::%7B%22spaceId%22%3A%22%2Ffresh.config.ts%22%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
+        "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D": {
+          "name": "Deco Records",
+          "icon": "database",
           "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/fresh.config.ts"
-          },
-          "id": "%2Ffresh.config.ts::Code::code::Code::%7B%22spaceId%22%3A%22%2Ffresh.config.ts%22%7D",
+          "viewId": "Deco Records",
+          "id": "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D",
           "state": {
             "__signal": null
           }
         }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Header.json",
-      "name": "Header",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
       },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
+      "tags": [
+        {
+          "label": "BETA",
+          "color": "positive"
         }
-      }
+      ],
+      "category": "Content"
     },
     {
       "id": "/.deco/blocks/Preview%20%2Fsections%2FHero.tsx.json",
@@ -1006,7 +802,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1027,40 +823,19 @@
               },
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1088,24 +863,13 @@
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
           "accepts": "function",
           "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::Properties::list::Properties::%7B%7D",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHero.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1113,303 +877,8 @@
       }
     },
     {
-      "id": "deco-records-space",
-      "name": "Records",
-      "pinned": true,
-      "icon": "database",
-      "layout": [],
-      "tabs": {
-        "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D": {
-          "name": "Deco Records",
-          "icon": "database",
-          "render": "function",
-          "viewId": "Deco Records",
-          "id": "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "tags": [
-        {
-          "label": "BETA",
-          "color": "positive"
-        }
-      ],
-      "category": "Content"
-    },
-    {
-      "id": "Publish",
-      "name": "Publish",
-      "pinned": false,
-      "icon": "rocket",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "stack",
-            "height": 100,
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "activeItemIndex": 0,
-            "content": [
-              {
-                "id": "Publish::Environment::rocket::Environment::%7B%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
-                "type": "component",
-                "componentName": "component",
-                "componentState": {
-                  "id": "Publish::Environment::rocket::Environment::%7B%7D"
-                },
-                "isClosable": true,
-                "reorderEnabled": true
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "Publish::Environment::rocket::Environment::%7B%7D": {
-          "name": "Environment",
-          "icon": "rocket",
-          "render": "function",
-          "viewId": "Environment",
-          "id": "Publish::Environment::rocket::Environment::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Footer.json",
-      "name": "Footer",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "column",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "row",
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "content": [
-                  {
-                    "title": "",
-                    "type": "stack",
-                    "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 47.23645680819912,
-                    "activeItemIndex": 0,
-                    "content": [
-                      {
-                        "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D",
-                        "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D\" />",
-                        "type": "component",
-                        "componentName": "component",
-                        "componentState": {
-                          "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D"
-                        },
-                        "isClosable": true,
-                        "reorderEnabled": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "stack",
-                    "width": 52.76354319180088,
-                    "isClosable": true,
-                    "reorderEnabled": true,
-                    "title": "",
-                    "activeItemIndex": 0,
-                    "content": [
-                      {
-                        "id": "%2F.deco%2Fblocks%2FFooter.json::Code::code::Code::%7B%7D",
-                        "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Code::code::Code::%7B%7D\" />",
-                        "type": "component",
-                        "componentName": "component",
-                        "componentState": {
-                          "id": "%2F.deco%2Fblocks%2FFooter.json::Code::code::Code::%7B%7D"
-                        },
-                        "isClosable": true,
-                        "reorderEnabled": true
-                      }
-                    ]
-                  }
-                ],
-                "height": 54.97287522603978
-              },
-              {
-                "type": "stack",
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FFooter.json::Terminal::terminal::Terminal::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Terminal::terminal::Terminal::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FFooter.json::Terminal::terminal::Terminal::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ],
-                "header": {},
-                "height": 11.693791440626885
-              },
-              {
-                "type": "stack",
-                "height": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FFooter.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FFooter.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FFooter.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FFooter.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FFooter.json::Terminal::terminal::Terminal::%7B%7D": {
-          "name": "Terminal",
-          "icon": "terminal",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Terminal",
-          "id": "%2F.deco%2Fblocks%2FFooter.json::Terminal::terminal::Terminal::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FFooter.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
-          "name": "JSON Properties",
-          "icon": "braces",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "JSON Properties",
-          "id": "%2F.deco%2Fblocks%2FFooter.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Preview%20blog%2Floaders%2FBlogpostList.ts.json",
-      "name": "BlogpostList.ts",
+      "id": "/.deco/blocks/Preview%20%2Floaders%2FNewNameLoader.ts.json",
+      "name": "NewNameLoader.ts",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -1458,12 +927,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Preview::world::Preview::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1472,19 +941,19 @@
               },
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 28.108903605592342,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Code::code::Code::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Code::code::Code::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Code::code::Code::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Code::code::Code::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1493,19 +962,19 @@
               },
               {
                 "type": "stack",
-                "width": 33.33333333333333,
+                "width": 38.55776306107432,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1522,35 +991,730 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Code::code::Code::%7B%7D": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Code::code::Code::%7B%7D": {
           "name": "Code",
           "icon": "code",
           "accepts": "function",
           "render": "function",
           "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Code::code::Code::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Floaders%252FNewNameLoader.ts.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Factions%2FBlogAction.ts.json",
+      "name": "BlogAction.ts",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Factions%252FBlogAction.ts.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": "error"
           }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FNewSection.tsx.json",
+      "name": "NewSection.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
         },
-        "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Properties::list::Properties::%7B%7D": {
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": "error"
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FTiagoGimenesSection.tsx.json",
+      "name": "TiagoGimenesSection.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 26.160025060718105,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 26.207841849416567,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "content": [
+                  {
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Code::code::Code::%7B%7D",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Code::code::Code::%7B%7D"
+                    }
+                  }
+                ],
+                "header": {},
+                "activeItemIndex": 0,
+                "height": 100
+              },
+              {
+                "type": "stack",
+                "header": {},
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "width": 22.632133089865352,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTiagoGimenesSection.tsx.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-Gimenes-679855.json",
+      "name": "Gimenes",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 21.186440677966107,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 53.38983050847458,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25.423728813559315,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520blog%252Floaders%252FBlogpostList.ts.json::Properties::list::Properties::%7B%7D",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-Gimenes-679855.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "Publish",
+      "name": "Publish",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "Publish::Environment::rocket::Environment::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "Publish::Environment::rocket::Environment::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "Publish::Environment::rocket::Environment::%7B%7D": {
+          "name": "Environment",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Environment",
+          "id": "Publish::Environment::rocket::Environment::%7B%7D",
           "state": {
             "__signal": null
           }

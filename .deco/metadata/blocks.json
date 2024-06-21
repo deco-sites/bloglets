@@ -147,5 +147,67 @@
   "/.deco/blocks/Preview%20blog%2Floaders%2FBlogpostList.ts.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/BlogpostList.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FMyblogLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/MyblogLoader.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FMyLoader.tsx.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/MyLoader.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FNewLoader.tsx.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/NewLoader.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FNewLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/NewLoader.ts"
+  },
+  "/.deco/blocks/Preview%20site%2Floaders%2FNewLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/NewLoader.ts"
+  },
+  "/.deco/blocks/Preview%20site%2Floaders%2FMyblogLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/MyblogLoader.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FLetsLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/LetsLoader.ts"
+  },
+  "/.deco/blocks/Preview%20site%2Floaders%2FLetsLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/LetsLoader.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FHericlesLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/HericlesLoader.ts"
+  },
+  "/.deco/blocks/Preview%20%2Factions%2FNewAction.ts.json": {
+    "blockType": "actions",
+    "__resolveType": "site/actions/NewAction.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FNewNameLoader.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/NewNameLoader.ts"
+  },
+  "/.deco/blocks/Preview%20%2Factions%2FBlogAction.ts.json": {
+    "blockType": "actions",
+    "__resolveType": "site/actions/BlogAction.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FNewSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/NewSection.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FTiagoGimenesSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/TiagoGimenesSection.tsx"
+  },
+  "/.deco/blocks/pages-Gimenes-679855.json": {
+    "name": "Gimenes",
+    "path": "/gimenes",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

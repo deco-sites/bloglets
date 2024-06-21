@@ -2,8 +2,17 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/BlogAction.ts";
+import * as $$$$$$$$$1 from "./actions/NewAction.ts";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$0 from "./loaders/HericlesLoader.ts";
+import * as $$$1 from "./loaders/LetsLoader.ts";
+import * as $$$3 from "./loaders/MyblogLoader.ts";
+import * as $$$2 from "./loaders/MyLoader.tsx";
+import * as $$$4 from "./loaders/NewLoader.ts";
+import * as $$$5 from "./loaders/NewLoader.tsx";
+import * as $$$6 from "./loaders/NewNameLoader.ts";
 import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Faq.tsx";
@@ -13,10 +22,21 @@ import * as $$$$$$5 from "./sections/Hero.tsx";
 import * as $$$$$$6 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$7 from "./sections/Logos.tsx";
 import * as $$$$$$8 from "./sections/MainPost.tsx";
-import * as $$$$$$9 from "./sections/Testimonials.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$9 from "./sections/NewSection.tsx";
+import * as $$$$$$10 from "./sections/Testimonials.tsx";
+import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/TiagoGimenesSection.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/HericlesLoader.ts": $$$0,
+    "site/loaders/LetsLoader.ts": $$$1,
+    "site/loaders/MyblogLoader.ts": $$$3,
+    "site/loaders/MyLoader.tsx": $$$2,
+    "site/loaders/NewLoader.ts": $$$4,
+    "site/loaders/NewLoader.tsx": $$$5,
+    "site/loaders/NewNameLoader.ts": $$$6,
+  },
   "sections": {
     "site/sections/BlogPost.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
@@ -27,8 +47,14 @@ const manifest = {
     "site/sections/ImageWithParagraph.tsx": $$$$$$6,
     "site/sections/Logos.tsx": $$$$$$7,
     "site/sections/MainPost.tsx": $$$$$$8,
-    "site/sections/Testimonials.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
+    "site/sections/NewSection.tsx": $$$$$$9,
+    "site/sections/Testimonials.tsx": $$$$$$10,
+    "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/TiagoGimenesSection.tsx": $$$$$$12,
+  },
+  "actions": {
+    "site/actions/BlogAction.ts": $$$$$$$$$0,
+    "site/actions/NewAction.ts": $$$$$$$$$1,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
